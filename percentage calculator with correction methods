@@ -1,0 +1,18 @@
+'''percentage calculator with correction methods'''
+
+class student:
+    def __init__(self,phy,chem,math):
+        self.phy= phy 
+        self.chem=chem 
+        self.math=math
+        
+
+    @property
+    def percentage(self):
+        return str((self.phy+self.chem + self.math)/3)+"%"
+
+s1=student(90,99,89)
+print("your percentage is ",s1.percentage)
+
+s1.phy=86
+print("after correction,the percentage is ",s1.percentage)
