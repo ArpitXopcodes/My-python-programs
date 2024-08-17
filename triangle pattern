@@ -1,4 +1,4 @@
-'''printing stars'''
+'''triangle pattern'''
 
 n=int(input("enter the number"))
 
